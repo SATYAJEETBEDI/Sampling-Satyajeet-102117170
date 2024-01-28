@@ -1,14 +1,15 @@
 # SamplingAssignment
 ## Sampling
-Sampling is a method used to glean insights about a population by analyzing statistics from a representative subset, sparing the need to examine every individual. To tackle an initial dataset imbalance—763 non-fraudulent cases and only 9 fraudulent cases—an oversampling approach was implemented. This involved generating additional instances of the minority class (fraudulent cases) to match the majority class (non-fraudulent cases), resulting in a balanced dataset consolidated into a single data frame.
+By examining data from a representative subset of the population, sampling can provide insights about the population without requiring a comprehensive examination of every member. An oversampling strategy was used to address an initial dataset imbalance of 763 non-fraudulent cases and only 9 fraudulent cases. In order to match the majority class (non-fraudulent cases), more instances of the minority class (fraudulent cases) had to be created. This process produced a balanced dataset that was then combined into a single data frame.
 
-The following sampling techniques were utilized:
+The following methods of sampling were applied:
 
-- Simple Random Sampling: Random selection of samples from the population.
-- Systematic Sampling: Regular interval selection after a random start.
-- Cluster Sampling: Randomly selecting clusters from the population.
-- Stratified Sampling: Division of the population into subgroups based on certain criteria.
-- Bootstrap Sampling: Resampling with replacement to create multiple samples from the original dataset.
+- Simple Random Sampling: Drawing samples from the population at random.
+Systematic Sampling: After a random start, regular interval selection is made.
+Choosing clusters at random from the population is known as cluster sampling.
+- Stratified Sampling: Creating subgroups within the population according to predetermined standards.
+- Bootstrap Sampling: Creating multiple samples from the original dataset by resampling with replacement.
+
 
 Following the generation of five distinct samples using these techniques, five models were applied to each sample. The accuracies of each model for a given sample are summarized in the following table:
 
